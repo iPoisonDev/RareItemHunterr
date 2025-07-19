@@ -26,6 +26,9 @@ import com.ne0nx3r0.rareitemhunter.boss.skill.Swallow;
 import com.ne0nx3r0.rareitemhunter.boss.skill.DigUpEnemies;
 import com.ne0nx3r0.rareitemhunter.boss.skill.BoggedArrow;
 import com.ne0nx3r0.rareitemhunter.boss.skill.WindCharge;
+import com.ne0nx3r0.rareitemhunter.boss.skill.WaterPulse;
+import com.ne0nx3r0.rareitemhunter.boss.skill.MirrorImage;
+import com.ne0nx3r0.rareitemhunter.boss.skill.SummonVex;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -104,6 +107,9 @@ public class BossManager
         availableBossSkills.add(new DigUpEnemies());
         availableBossSkills.add(new BoggedArrow());
         availableBossSkills.add(new WindCharge());
+        availableBossSkills.add(new WaterPulse());
+        availableBossSkills.add(new MirrorImage());
+        availableBossSkills.add(new SummonVex());
 
         bossTemplates = new HashMap<>();
 

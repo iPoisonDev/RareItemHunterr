@@ -168,3 +168,30 @@ TheBreeze:
   skills:
     - 50% chance WindCharge level 5
   essencesDropped: 2
+
+TheElderGuardian:
+  type: elder_guardian
+  hp: 4000
+  attackPower: 60
+  skills:
+    - 50% chance WaterPulse level 5
+    - 20% chance Slowness level 10
+  essencesDropped: 4
+
+TheIllusioner:
+  type: illusioner
+  hp: 3000
+  attackPower: 40
+  skills:
+    - 50% chance MirrorImage level 5
+    - 30% chance Blinding level 10
+  essencesDropped: 3
+
+TheVexKing:
+  type: vex
+  hp: 2500
+  attackPower: 30
+  skills:
+    - 50% chance SummonVex level 5
+    - 20% chance Weaken level 10
+  essencesDropped: 2
